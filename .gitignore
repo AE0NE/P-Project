@@ -1,0 +1,72 @@
+# Operating systems / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Frontend / build outputs
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Local runtime / experiments
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+.cache/
+logs/
+runs/
+wandb/
+checkpoints/
+artifacts/
+
+# Documents and data: publish only reviewed, explicitly allowed material
+data/*
+!data/README.md
+models/*
+!models/README.md
+*.pdf
+*.docx
+*.pptx
+*.csv
+*.parquet
+*.jsonl
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.gguf
+*.onnx
+
+# Tests may contain reviewed synthetic examples
+!tests/fixtures/**/*.csv
+!tests/fixtures/**/*.jsonl

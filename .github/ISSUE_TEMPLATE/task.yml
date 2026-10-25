@@ -1,0 +1,28 @@
+name: 개발 작업
+description: 기능·모델·데이터·문서 작업을 등록합니다.
+title: "[작업] "
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 목적과 범위
+      description: 어떤 문제를 해결하고 어느 부분을 변경하나요?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 완료 기준
+      placeholder: "- [ ] 확인 가능한 완료 조건"
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: 선행 작업과 합의 사항
+      description: 관련 Issue, API·스키마 합의, 필요한 자료를 적어 주세요.
+  - type: textarea
+    id: validation
+    attributes:
+      label: 검증 계획
+      description: 실행 결과나 실험 지표 등으로 어떻게 확인하나요?
