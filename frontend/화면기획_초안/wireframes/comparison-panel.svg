@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 854" width="1280" height="854" role="img">
+  <title>저장한 두 상품의 혜택 비교 패널 구성 제안</title>
+  <desc>합성 상품 A와 B의 같은 업종 혜택을 비교하는 읽기 전용 표. 할인과 포인트, 전용·공유 한도, 미확인을 구분합니다.</desc>
+  <rect x="0" y="0" width="1280" height="854" fill="#f3f5f8" stroke="none" rx="0" />
+  <text x="30" y="42" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="22" fill="#273142" font-weight="600">
+    <tspan x="30" dy="0">두 상품 비교 · 같은 작업 화면의 패널 제안</tspan>
+  </text>
+  <text x="875" y="40" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#667184" font-weight="400">
+    <tspan x="875" dy="0">합성 데이터 · 미확정 와이어프레임</tspan>
+  </text>
+  <rect x="60" y="80" width="1160" height="708" fill="#ffffff" stroke="#cbd2dc" rx="8" />
+  <text x="86" y="120" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="20" fill="#273142" font-weight="600">
+    <tspan x="86" dy="0">저장한 두 상품 비교</tspan>
+  </text>
+  <text x="86" y="150" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#667184" font-weight="400">
+    <tspan x="86" dy="0">상품별로 선택한 혜택과 저장된 검토 버전을 확인합니다.</tspan>
+  </text>
+  <rect x="1112" y="101" width="82" height="40" fill="#ffffff" stroke="#cbd2dc" rx="6" />
+  <text x="1127" y="127" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="500">
+    <tspan x="1127" dy="0">닫기</tspan>
+  </text>
+  <rect x="86" y="174" width="1108" height="500" fill="#ffffff" stroke="#cbd2dc" rx="0" />
+  <rect x="86" y="174" width="1108" height="54" fill="#eef1f6" stroke="none" rx="0" />
+  <text x="104" y="208" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="600">
+    <tspan x="104" dy="0">비교 항목</tspan>
+  </text>
+  <text x="296" y="197" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" fill="#273142" font-weight="600">
+    <tspan x="296" dy="0">가상 상품 A · 편의점</tspan>
+  </text>
+  <text x="296" y="219" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="12" fill="#667184" font-weight="400">
+    <tspan x="296" dy="0">문서 v1 / 저장 검토 1</tspan>
+  </text>
+  <text x="752" y="197" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="16" fill="#273142" font-weight="600">
+    <tspan x="752" dy="0">가상 상품 B · 편의점</tspan>
+  </text>
+  <text x="752" y="219" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="12" fill="#667184" font-weight="400">
+    <tspan x="752" dy="0">문서 v1 / 저장 검토 1</tspan>
+  </text>
+  <line x1="86" y1="228" x2="1194" y2="228" stroke="#dce1e8" />
+  <text x="104" y="262" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="104" dy="0">혜택 종류</tspan>
+  </text>
+  <text x="296" y="262" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="296" dy="0">할인</tspan>
+  </text>
+  <text x="752" y="262" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="752" dy="0">포인트 적립</tspan>
+  </text>
+  <line x1="86" y1="283" x2="1194" y2="283" stroke="#dce1e8" />
+  <text x="104" y="317" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="104" dy="0">대상</tspan>
+  </text>
+  <text x="296" y="317" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="296" dy="0">편의점</tspan>
+  </text>
+  <text x="752" y="317" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="752" dy="0">편의점</tspan>
+  </text>
+  <line x1="86" y1="338" x2="1194" y2="338" stroke="#dce1e8" />
+  <text x="104" y="372" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="104" dy="0">혜택 비율</tspan>
+  </text>
+  <text x="296" y="372" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="296" dy="0">10%</tspan>
+  </text>
+  <text x="752" y="372" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="752" dy="0">5%</tspan>
+  </text>
+  <line x1="86" y1="393" x2="1194" y2="393" stroke="#dce1e8" />
+  <text x="104" y="427" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="104" dy="0">전월 실적</tspan>
+  </text>
+  <text x="296" y="427" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="296" dy="0">30만 원 이상</tspan>
+  </text>
+  <text x="752" y="427" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="752" dy="0">20만 원 이상</tspan>
+  </text>
+  <line x1="86" y1="448" x2="1194" y2="448" stroke="#dce1e8" />
+  <text x="104" y="482" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="104" dy="0">혜택 한도</tspan>
+  </text>
+  <text x="296" y="482" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="296" dy="0">월 5천 원 · 편의점·카페 합산</tspan>
+  </text>
+  <text x="752" y="482" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="752" dy="0">월 6천 포인트 · 편의점 전용</tspan>
+  </text>
+  <line x1="86" y1="503" x2="1194" y2="503" stroke="#dce1e8" />
+  <text x="104" y="537" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="104" dy="0">실적 제외</tspan>
+  </text>
+  <text x="296" y="537" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="296" dy="0">상품권 구매금액</tspan>
+  </text>
+  <text x="752" y="537" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#667184" font-weight="400">
+    <tspan x="752" dy="0">미확인</tspan>
+  </text>
+  <line x1="86" y1="558" x2="1194" y2="558" stroke="#dce1e8" />
+  <text x="104" y="592" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="104" dy="0">혜택 제외</tspan>
+  </text>
+  <text x="296" y="592" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="296" dy="0">간편결제 거래</tspan>
+  </text>
+  <text x="752" y="592" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#667184" font-weight="400">
+    <tspan x="752" dy="0">미확인</tspan>
+  </text>
+  <line x1="86" y1="613" x2="1194" y2="613" stroke="#dce1e8" />
+  <text x="104" y="647" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="104" dy="0">사람의 검토</tspan>
+  </text>
+  <text x="296" y="647" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="296" dy="0">검토 완료</tspan>
+  </text>
+  <text x="752" y="647" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="400">
+    <tspan x="752" dy="0">검토 중</tspan>
+  </text>
+  <line x1="274" y1="174" x2="274" y2="674" stroke="#dce1e8" />
+  <line x1="728" y1="174" x2="728" y2="674" stroke="#dce1e8" />
+  <text x="86" y="709" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#667184" font-weight="400">
+    <tspan x="86" dy="0">읽기 전용 · 수정은 각 상품의 검토 화면에서 진행합니다.</tspan>
+  </text>
+  <rect x="746" y="726" width="208" height="40" fill="#ffffff" stroke="#cbd2dc" rx="6" />
+  <text x="761" y="752" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="500">
+    <tspan x="761" dy="0">A 원문·검토로 이동</tspan>
+  </text>
+  <rect x="968" y="726" width="226" height="40" fill="#ffffff" stroke="#cbd2dc" rx="6" />
+  <text x="983" y="752" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="15" fill="#273142" font-weight="500">
+    <tspan x="983" dy="0">B 원문·검토로 이동</tspan>
+  </text>
+  <text x="30" y="823" font-family="-apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="14" fill="#667184" font-weight="400">
+    <tspan x="30" dy="0">출처: 직접 만든 합성문서 A·B · 단위·공유 범위·미확인을 그대로 표시합니다.</tspan>
+  </text>
+</svg>
