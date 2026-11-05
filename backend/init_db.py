@@ -39,6 +39,7 @@ with sqlite3.connect(DB_PATH) as conn:
             run_id TEXT PRIMARY KEY,
             document_id TEXT NOT NULL,
             offset_unit TEXT NOT NULL,
+            extractor_type TEXT NOT NULL DEFAULT 'unknown',
             FOREIGN KEY (document_id)
                 REFERENCES documents(document_id)
         );
@@ -70,6 +71,20 @@ with sqlite3.connect(DB_PATH) as conn:
         );
 
     """)
+    
+        # 기존 DB에 extractor_type 컬럼이 없으면 추가
+    columns = [
+        row[1]
+        for row in conn.execute("PRAGMA table_info(runs)")
+    ]
+
+    if "extractor_type" not in columns:
+        conn.execute(
+            """
+            ALTER TABLE runs
+            ADD COLUMN extractor_type TEXT NOT NULL DEFAULT 'unknown'
+            """
+        )
 
     # 문서 저장
     conn.execute(
@@ -85,8 +100,17 @@ with sqlite3.connect(DB_PATH) as conn:
 
     # 추출 실행 정보 저장
     conn.execute(
-        "INSERT OR IGNORE INTO runs VALUES (?, ?, ?)",
-        (sample["run_id"], sample["document_id"], sample["offset_unit"])
+        """
+        INSERT OR IGNORE INTO runs
+        (run_id, document_id, offset_unit, extractor_type)
+        VALUES (?, ?, ?, ?)
+        """,
+        (
+            sample["run_id"],
+            sample["document_id"],
+            sample["offset_unit"],
+            sample.get("extractor_type", "unknown")
+        )
     )
 
     # 최초 추출 결과 저장
