@@ -1,0 +1,23 @@
+
+{
+  "run_id": "SYN-R001",
+  "document_id": "SYN-D001",
+  "data_origin": "synthetic",
+  "block_id": "SYN-B001",
+  "offset_unit": "unicode_code_point",
+  "text": "편의점 10% 할인",
+  "spans": [
+    {
+      "type": "TARGET",
+      "start": 0,
+      "end": 3,
+      "text": "편의점"
+    },
+    {
+      "type": "RATE",
+      "start": 4,
+      "end": 7,
+      "text": "10%"
+    }
+  ]
+}
