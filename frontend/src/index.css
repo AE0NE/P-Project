@@ -1331,9 +1331,10 @@
 
 .brand-logo {
   display: block;
-  width: 144px;
+  width: 110px;
   max-width: 100%;
   height: auto;
   object-fit: contain;
-  margin-left: 2px;
+  margin-left: 15px;
+  margin-top: 5px;
 }
