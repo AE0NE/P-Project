@@ -163,6 +163,7 @@ type ConditionRowProps = {
   draftValueStatus?: ValueStatus
   onSelect: () => void
   onEdit: () => void
+  onFinishEdit: () => void
   onValueChange: (value: string) => void
   onStatusChange: (status: ReviewStatus) => void
 }
@@ -176,6 +177,7 @@ function ConditionRow({
   draftValueStatus,
   onSelect,
   onEdit,
+  onFinishEdit, 
   onValueChange,
   onStatusChange,
 }: ConditionRowProps) {
@@ -197,14 +199,22 @@ function ConditionRow({
       <div className="condition-value">
         {editing ? (
           <div className="edit-stack" onClick={(event) => event.stopPropagation()}>
-            <input
-              autoFocus
-              value={draftValue}
-              onChange={(event) => onValueChange(event.target.value)}
-              aria-label={`${condition.label} 값`}
-            />
-            <span>최초 AI 예측: {condition.aiValue}</span>
-          </div>
+  <input
+    autoFocus
+    value={draftValue}
+    onChange={(event) => onValueChange(event.target.value)}
+    onKeyDown={(event) => {
+      event.stopPropagation()
+
+      if (event.key === 'Enter') {
+        event.preventDefault()
+        onFinishEdit()
+      }
+    }}
+    aria-label={`${condition.label} 값`}
+  />
+  <span>최초 AI 예측: {condition.aiValue}</span>
+</div>
         ) : (
           <div className="value-line">
             {valueStatus && valueStatus !== 'known' ? (
@@ -672,12 +682,16 @@ export default function App() {
                     draftStatus={draft[condition.id]?.status}
                     draftValueStatus={draft[condition.id]?.valueStatus}
                     onSelect={() => {
-                      setSelectedId(condition.id)
-                      setNotice(null)
-                    }}
-                    onEdit={() => startEditing(condition)}
-                    onValueChange={(value) => updateDraft(condition.id, { value, valueStatus: 'known' })}
-                    onStatusChange={(status) => updateDraft(condition.id, { status })}
+  setSelectedId(condition.id)
+  setEditingId(null)
+  setNotice(null)
+}}
+onEdit={() => startEditing(condition)}
+onFinishEdit={() => setEditingId(null)}
+onValueChange={(value) =>
+  updateDraft(condition.id, { value, valueStatus: 'known' })
+}
+onStatusChange={(status) => updateDraft(condition.id, { status })}
                   />
                 ))}
               </div>
