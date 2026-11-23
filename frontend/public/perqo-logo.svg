@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1070 315" role="img" aria-labelledby="title">
+  <title id="title">PERQO integrated uppercase wordmark</title>
+  <path d="M0 0h120c91 0 146 44 146 112S210 223 121 223H71v62H0V0Zm71 62v100h49c46 0 73-18 73-50s-27-50-73-50H71Z" fill="#3D68DC" fill-rule="evenodd"/>
+  <circle cx="201" cy="244" r="43" fill="#A5D9C5"/>
+  <path d="M290 71h160v41H340v41h98v41h-98v50h110v41H290V71Z" fill="#344563"/>
+  <path d="M465 71h95c60 0 90 23 90 65 0 31-16 51-45 61l55 88h-59l-49-81h-37v81h-50V71Zm50 40v54h41c31 0 44-10 44-27 0-19-13-27-44-27h-41Z" fill="#344563" fill-rule="evenodd"/>
+  <g fill="#344563">
+    <path d="M760 67c62 0 100 43 100 111 0 68-38 112-100 112s-100-44-100-112c0-68 38-111 100-111Zm0 42c-31 0-50 27-50 69 0 43 19 70 50 70s50-27 50-70c0-42-19-69-50-69Z" fill-rule="evenodd"/>
+    <rect x="771" y="193" width="116" height="39" transform="rotate(41.55 771 193)"/>
+  </g>
+  <path d="M965 67c62 0 100 43 100 111 0 68-38 112-100 112s-100-44-100-112c0-68 38-111 100-111Zm0 42c-31 0-50 27-50 69 0 43 19 70 50 70s50-27 50-70c0-42-19-69-50-69Z" fill="#344563" fill-rule="evenodd"/>
+</svg>
